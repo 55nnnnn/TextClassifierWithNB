@@ -20,10 +20,6 @@ pWordArray, pClassArray = train.train(vecList, classList)
 print('pWordArray', pWordArray)
 print('pClassArray', pClassArray)
 
-# testingVecList = [[1,0,0,0,0,0,0,0,0,0,0,0]]
-# testedClassList, pResult = test.test(testingVecList, pWordArray, pClassArray)
-# print('testedClassList', testedClassList)
-# print('pResult', pResult)
 
 testingPath = "./data/dev.txt"
 testingSentences, testingClassList = fr.read(testingPath)
